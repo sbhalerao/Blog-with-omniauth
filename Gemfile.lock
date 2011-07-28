@@ -127,7 +127,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  omniauth (= 0.2.0)
+  omniauth
   rails (= 3.0.0)
   sqlite3-ruby
   thumbs_up

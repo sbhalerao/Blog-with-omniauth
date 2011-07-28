@@ -1,4 +1,4 @@
-class User < ActiveRecord::Base
+
   class User < ActiveRecord::Base  
     def self.create_with_omniauth(auth)  
       create! do |user|  
@@ -8,4 +8,4 @@ class User < ActiveRecord::Base
       end
     end  
     end  
-  end
+

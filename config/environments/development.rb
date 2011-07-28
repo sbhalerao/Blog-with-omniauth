@@ -8,6 +8,9 @@ Blog::Application.configure do
 
   # Log error messages when you accidentally call methods on nil.
   config.whiny_nils = true
+  
+  provider :twitter, 'AnSYCY4bRcmfUBJODfpmQ', 'GyvfClXeCLXL4NJBKGU7glpXDMfVDBN37pjjeQzFzw'
+
 
   # Show full error reports and disable caching
   config.consider_all_requests_local       = true

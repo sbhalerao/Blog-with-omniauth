@@ -2,7 +2,7 @@ Blog::Application.routes.draw do
   resources :posts
   
    match "/auth/twitter/callback" => "sessions#create"
-   match '/auth/failure' => 'sessions#failure' 
+   match "/auth/failure" => "sessions#failure"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

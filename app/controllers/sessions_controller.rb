@@ -10,4 +10,11 @@ class SessionsController < ApplicationController
         flash[:error] = 'There was an error at the remote authentication service. You have not been signed in.'
         redirect_to "http://www.google.com", :notice => "Failed to sign in!" 
       end
+      
+      def destroy
+        session[:user_id]=nil
+        redirect_to root_url, :notice => "Signed out!"
+        
+      end
+      
 end

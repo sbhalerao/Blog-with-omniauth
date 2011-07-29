@@ -9,6 +9,7 @@
 <body>
 <%= link_to "Sign in with Twitter", "/auth/twitter" %>
 <%= link_to "Sign in with Facebook", "/auth/facebook" %>
+<%= flash[:notice] %>
 
 <%= yield %>
 
